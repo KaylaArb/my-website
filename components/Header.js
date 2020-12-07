@@ -22,7 +22,7 @@ export default function Header() {
                         Resume
                 </a>
                 </Link>
-                <Link href='/resume'>
+                <Link href='mailto:kaarbez@gmail.com'>
                     <a className={styles.text}>
                         Contact
                 </a>
