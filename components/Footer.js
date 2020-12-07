@@ -4,23 +4,24 @@ import styles from '../styles/Footer.module.css'
 export default function Footer() {
 
   return (
-      <footer>
+    <footer className={styles.footer}>
+      <div>
+        <a
+          href="https://github.com/KaylaArb/my-website"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Designed and Built by Kayla Arbez
+      </a>
 
-      </footer>
-    
+      </div>
+      <div>
+        <img src="/icons8-cat.png" className={styles.logo} />
+      </div>
 
-//       <footer className={styles.footer}>
-//         <a
-//           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Powered by{' '}
-//           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-//         </a>
-//       </footer>
-//     </div>
-//   )
+    </footer>
+
+  )
 }
 
 

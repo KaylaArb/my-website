@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .footer img {
+    margin-left: 0.5rem;
+    padding-top: 15px;
+  }
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
