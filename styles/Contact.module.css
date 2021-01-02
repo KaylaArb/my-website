@@ -2,10 +2,9 @@
     width: 100%;
     height: auto;
     padding: 50px 75px;
-    background-color: #E5E5E5;
+    background-color: white;
     display: flex;
     justify-content: center;
-    
 }
 
 .contact {
@@ -38,7 +37,7 @@
 }
 
 .contact__button {
-    margin-top:15px;
+    margin:10px;
     padding:15px;
     width: 225px;
     font-size: 20px;
@@ -48,8 +47,12 @@
     border: 1px solid #F58F7C;
     border-radius: 6px;
     cursor: pointer; 
+    box-shadow: 10px 10px #D6D6D6;
+    transition: all 0.2s;
+    transition-timing-function: ease-in-out;
 }
 
 .contact__button:hover {
-    background-color: #fef3f1;
+    transform: translate(10px, 10px);
+    box-shadow: 0 0 #5CA2D5;
 }

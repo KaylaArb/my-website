@@ -1,7 +1,7 @@
 .about {
     width: 100%;
     height: auto;
-    background-color: #E5E5E5;
+    background-color: white;
     padding: 50px 75px;
     display: flex;
     flex-direction: column;
@@ -50,7 +50,8 @@
 
 .tech__list {
     display:flex;
-    width:100%;
+    width: 100%;
+    max-width: 500px;
     flex-direction: row;
     justify-content: space-evenly;
 }

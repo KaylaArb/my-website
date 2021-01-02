@@ -7,7 +7,12 @@ export default function Hero() {
     return (
         <div className={styles.hero}>
             <div className={styles.hero__photoContainer}>
-                <div className={styles.photo}></div>
+                <div className={styles.cf}>
+                    <img src="/IMG-0778.jpg" className={styles.img}/>
+                    <img src="/IMG-0792.jpg"  className={styles.img}/>
+                    <img src="/IMG-0838.jpg"  className={styles.img}/>
+                    <img src="/IMG-0816.jpg"  className={styles.img}/>
+                </div>
             </div>
             <div className={styles.hero__description}>
                 <p className={styles.intro}>Hi, my name is </p>
@@ -19,6 +24,7 @@ export default function Hero() {
             <div className={styles.hero__shape}>
                 <div className={styles.box}></div>
             </div>
+           
         </div>
     )
 }

@@ -1,31 +1,45 @@
 import React from "react";
-import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Header.module.css'
+import { useState, useEffect } from 'react';
 
 export default function Header() {
 
-    return (
-        <header className={styles.header}>
-            <div className={styles.header__title}>
-                <p className={styles.title}>Welcome!</p>
-            </div>
-            <div className={styles.header__navLinks}>
-                <a href='https://github.com/KaylaArb'><img src="/iconmonstr-github-1.svg" alt="gitHub" className={styles.icon} /></a>
-                <a href='https://www.linkedin.com/in/kayla-arbez-3077a6118/'><img src="/iconmonstr-linkedin-3.svg" alt="linkedIn" className={styles.icon} /></a>
-                <Link href='/resume'>
-                    <a className={styles.text}>
-                        Resume
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  const listenScrollEvent = e => {
+    if (window.scrollY > 0) {
+      setIsScrolled(true)
+    } else {
+      setIsScrolled(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', listenScrollEvent);
+  })
+
+  return (
+    <header className={`${styles.header} ${isScrolled ? styles.active : ''}`}>
+      <div className={styles.header__title}>
+        <p className={styles.title}>Welcome!</p>
+      </div>
+      <div className={styles.header__navLinks}>
+        <a href='https://github.com/KaylaArb'><img src="/iconmonstr-github-1.svg" alt="gitHub" className={styles.icon} /></a>
+        <a href='https://www.linkedin.com/in/kayla-arbez-3077a6118/'><img src="/iconmonstr-linkedin-3.svg" alt="linkedIn" className={styles.icon} /></a>
+        <Link href='/resume'>
+          <a className={styles.text}>
+            Resume
                 </a>
-                </Link>
-                <Link href='mailto:kaarbez@gmail.com'>
-                    <a className={styles.text}>
-                        Contact
+        </Link>
+        <Link href='mailto:kaarbez@gmail.com'>
+          <a className={styles.text}>
+            Contact
                 </a>
-                </Link>
-            </div>
-        </header>
-    )
+        </Link>
+      </div>
+    </header>
+  )
 }
 
 
