@@ -7,9 +7,8 @@ export default function ProjectsSection() {
 
     return (
         <div className={styles.projects}>
+            <Title title="Projects" />
             <div className={styles.projects__container}>
-                <Title title="Projects" />
-
                 <div className={styles.display}>
                     <div className={styles.project}>
                         <GridBox />

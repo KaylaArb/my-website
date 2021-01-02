@@ -6,8 +6,8 @@ export default function AboutMe() {
 
     return (
         <div className={styles.about}>
+            <Title title='About Me'/>
             <div className={styles.about__container}>
-                <Title title='About Me' />
                 <div className={styles.bio}>
                     <div className={styles.decsription}>
                         <p>Residing in Vancouver BC, I am currently completintg my Bachelors in Business Administration while self teaching my-self web and back end development. My background in business and fashion design have tremoundsoly helped in rounding out my skills profesinally and in web development.</p>

@@ -53,3 +53,43 @@ header.active {
     width: auto;
     cursor: pointer;   
 }
+
+
+@media (max-width: 1200px) {
+
+    .header {
+        padding: 0 25px;
+    }
+
+  }
+
+@media (max-width: 700px) {
+
+    .header__title {
+        display: none;
+    }
+
+    .header {
+        justify-content: center;
+    }
+
+    
+  }
+
+  @media (max-width: 450px) {
+
+    .header__navLinks .text {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0 10px;
+    }
+    
+    .header__navLinks .icon {
+        height: 30px;
+        padding: 0 10px;
+    }
+
+  }
+
+
+  

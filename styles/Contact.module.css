@@ -56,3 +56,37 @@
     transform: translate(10px, 10px);
     box-shadow: 0 0 #5CA2D5;
 }
+
+@media (max-width: 1200px) {
+
+    .container {
+        padding: 50px 50px;  
+    }
+
+    .contact {
+        width: 75%;
+    }
+
+  }
+
+
+@media (max-width: 1050px) {
+
+    .container {
+        padding: 0 50px 50px 50px;  
+    }
+
+
+  }
+
+@media (max-width: 700px) {
+
+    .container {
+        padding: 0 25px 50px 25px;  
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+  }

@@ -1,5 +1,5 @@
 .about {
-    width: 100%;
+    width: 85%;
     height: auto;
     background-color: white;
     display: flex;
@@ -27,3 +27,11 @@
     border-top: 1px solid #4F4F51;
     width: 100%;
   }
+
+
+@media (max-width: 700px) {
+    .about {
+        width: 100%;
+    }
+    
+}
