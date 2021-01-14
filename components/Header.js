@@ -25,13 +25,8 @@ export default function Header() {
         <p className={styles.title}>Welcome!</p>
       </div>
       <div className={styles.header__navLinks}>
-        <a href='https://github.com/KaylaArb'><img src="/iconmonstr-github-1.svg" alt="gitHub" className={styles.icon} /></a>
-        <a href='https://www.linkedin.com/in/kayla-arbez-3077a6118/'><img src="/iconmonstr-linkedin-3.svg" alt="linkedIn" className={styles.icon} /></a>
-        <Link href='/resume'>
-          <a className={styles.text}>
-            Resume
-                </a>
-        </Link>
+        <a href='https://github.com/KaylaArb' target="_blank"><img src="/iconmonstr-github-1.svg" alt="gitHub" className={styles.icon} /></a>
+        <a href='https://www.linkedin.com/in/kayla-arbez-3077a6118/' target="_blank"><img src="/iconmonstr-linkedin-3.svg" alt="linkedIn" className={styles.icon} /></a>
         <Link href='mailto:kaarbez@gmail.com'>
           <a className={styles.text}>
             Contact

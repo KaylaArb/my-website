@@ -3,30 +3,32 @@ import styles from '../styles/GridBox.module.css';
 import Link from 'next/link'
 
 
-export default function GridBox() {
+export default function GridBox({ data }) {
 
     return (
         <div className={styles.container}>
             <div className={styles.gifContainer}>
-                <p>gid video here</p>
-
+                <video className={styles.video} loop autoPlay muted controls>
+                    <source src={data.video} type="video/mp4"/>
+                    <source src={data.video} type="video/ogg" />
+                    Your browser does not support the video tag.
+                </video>
             </div>
             <div className={styles.informationContainer}>
+                <h2 className={styles.title}>{data.title}</h2>
                 <div className={styles.sourceCode}>
-                    <Link href='https://github.com/LRode/halfmoon-frontend/blob/master/styles/BlogBlock.module.css'><a className={styles.sourceFont}> Source Code </a></Link>
-                    <Link href='https://github.com/LRode/halfmoon-frontend/blob/master/styles/BlogBlock.module.css'><a className={styles.sourceFont}> Website </a></Link>
+                    <a href={data.sourceCode} target="_blank" className={styles.sourceFont}> Source Code </a>
+                    {data.website !== "null" ? <a href={data.sourceCode} target="_blank" className={styles.sourceFont}> Website </a> :
+                        <a href={data.figma} target="_blank" className={styles.sourceFont}> Figma </a>}
                 </div>
                 <div>
-                    <p>Facebook Messenger chat bot extension featuring authentication and full song streaming from within the Messenger app. Read more about it on The Verge. This is ane xample of text to see how large it can be</p>
+                    <p>{data.description}</p>
                 </div>
                 <div className={styles.listTech}>
                     <ul>
-                        <li>Home</li>
-                        <li>News</li>
-                        <li>Contact</li>
-                        <li>About</li>
-                        <li>About</li>
-                        <li>About</li>
+                        {data.technology.map((tech) => (
+                            <li>{tech}</li>
+                        ))}
                     </ul>
 
                 </div>
