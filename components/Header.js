@@ -29,7 +29,7 @@ export default function Header() {
         <a href='https://www.linkedin.com/in/kayla-arbez-3077a6118/' target="_blank"><img src="/iconmonstr-linkedin-3.svg" alt="linkedIn" className={styles.icon} /></a>
         <Link href='mailto:kaarbez@gmail.com'>
           <a className={styles.text}>
-            Contact
+            kaarbez@gmail.com
                 </a>
         </Link>
       </div>
