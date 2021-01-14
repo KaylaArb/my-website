@@ -56,13 +56,10 @@
     .projects__container {
         width: 100%;
     }
-    
-}
-
-@media (max-width: 450px) {
 
     .projects__container .display .project {
         padding: 25px 0;
     }
     
 }
+

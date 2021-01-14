@@ -24,6 +24,7 @@
     height: 100%;
     border-radius: 5px;
     border-bottom: 1px #D6D6D6 solid;
+    outline:none;
 }
 
 .informationContainer {
@@ -32,7 +33,8 @@
     justify-content: space-between;
     padding: 15px;
     align-items: center;
-    height: 310px;
+    height: auto;
+    min-height: 325px;
     width: 100%;
     text-align:center;
     background-color: white;
@@ -82,27 +84,30 @@
   }
 
 
-  @media (max-width: 1250px) {
-
-    .informationContainer {
-        height: auto;
-    }
-
-  }
-
   @media (max-width: 1200px) {
-
-    .informationContainer {
-        height: 45%;
+    .gifContainer {
+        height: 350px;
     }
-
   }
 
-  @media (max-width: 700px) {
-    .informationContainer {
-        height: auto;
+  @media (max-width: 800px) {
+    .gifContainer {
+        height: 300px;
     }
 
+    .informationContainer {
+        height:auto;
+    }
+    
+}
 
+@media (max-width: 475px) {
+    .gifContainer {
+        height: 225px;
+    }
+
+    .informationContainer {
+        height:auto;
+    }
     
 }

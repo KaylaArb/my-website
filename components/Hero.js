@@ -17,8 +17,7 @@ export default function Hero() {
             <div className={styles.hero__description}>
                 <p className={styles.intro}>Hi, my name is </p>
                 <h1 className={styles.name}>Kayla Arbez</h1>
-                <p>As an aspiring software developer, I love a challenge and learning all things new and techinical!
-                I am mostly self-taught while also taking COMP courses as my electives. I am currently open to all new oppotunities. :)</p>
+                <p>As an aspiring software developer, I love a challenge and learning all things new and technical! I am mostly self-taught while taking COMP courses as electives in my Business Degree. :)</p>
                 <Link href='mailto:kaarbez@gmail.com'><button className={styles.button}>Get In Touch</button></Link>
             </div>
             <div className={styles.hero__shape}>
