@@ -126,7 +126,7 @@
     animation-name: cf4FadeInOut;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-direction: alternate;
 }
 
@@ -140,7 +140,7 @@
     animation-delay: 4s;
   }
 .cf img:nth-of-type(4) {
-    animation-delay:0;
+    animation-delay: 2s;
   }
 
 @media (max-width: 1200px) {
