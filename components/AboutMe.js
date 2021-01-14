@@ -33,7 +33,7 @@ export default function AboutMe() {
                                     <li>Next.JS</li>
                                     <li>Rest API</li>
                                     <li>WordPress</li>
-                                    <li>Strapi (Headless CMS)</li>
+                                    <li>Strapi</li>
                                     <li>Maven</li>
                                 </ul>
                             </div>

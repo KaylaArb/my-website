@@ -133,7 +133,7 @@
     animation-delay: 4s;
   }
 .cf img:nth-of-type(4) {
-    animation-delay: 2;
+    animation-delay:0;
   }
 
 @media (max-width: 1200px) {
