@@ -8,10 +8,10 @@ export default function Hero() {
         <div className={styles.hero}>
             <div className={styles.hero__photoContainer}>
                 <div className={styles.cf}>
-                    <img src="/img1.jxr" className={styles.img}/>
-                    <img src="/img2.jxr"  className={styles.img}/>
-                    <img src="/img3.jxr"  className={styles.img}/>
-                    <img src="/img3.jxr"  className={styles.img}/>
+                    <img src="/img4.webp" className={styles.img}/>
+                    <img src="/img3.webp"  className={styles.img}/>
+                    <img src="/img2.webp"  className={styles.img} />
+                    <img src="/img1.webp"  className={styles.img} />
                 </div>
             </div>
             <div className={styles.hero__description}>
