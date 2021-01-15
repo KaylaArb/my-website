@@ -18,7 +18,7 @@ export default function GridBox({ data }) {
                 <h2 className={styles.title}>{data.title}</h2>
                 <div className={styles.sourceCode}>
                     <a href={data.sourceCode} target="_blank" className={styles.sourceFont}> Source Code </a>
-                    {data.website !== "null" ? <a href={data.sourceCode} target="_blank" className={styles.sourceFont}> Website </a> :
+                    {data.website !== "null" ? <a href={data.website} target="_blank" className={styles.sourceFont}> Website </a> :
                         <a href={data.figma} target="_blank" className={styles.sourceFont}> Figma </a>}
                 </div>
                 <div>
