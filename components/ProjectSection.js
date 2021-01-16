@@ -12,7 +12,7 @@ export default function ProjectsSection({data}) {
                 <div className={styles.display}>
                     {data.map((project) => (
                         <div className={styles.project}>
-                        <GridBox data={project}/>
+                        <GridBox key={project.title} data={project}/>
                     </div>
                     ))}
                 </div>

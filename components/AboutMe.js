@@ -19,30 +19,28 @@ export default function AboutMe() {
                         <div className={styles.tech__list}>
                             <div>
                                 <ul>
-                                    <li>Java</li>
-                                    <li>JS</li>
-                                    <li>CSS</li>
-                                    <li>SQL</li>
-                                    <li>HTML</li>
-                                    <li>Git</li>
+                                    <li >Java</li>
+                                    <li >JS</li>
+                                    <li >CSS</li>
+                                    <li >SQL</li>
+                                    <li >HTML</li>
+                                    <li >Git</li>
                                 </ul>
                             </div>
                             <div>
                                 <ul>
-                                    <li>Spring Boot</li>
-                                    <li>Next.JS</li>
-                                    <li>Rest API</li>
-                                    <li>WordPress</li>
-                                    <li>Strapi</li>
-                                    <li>Maven</li>
+                                    <li >Spring Boot</li>
+                                    <li >Next.JS</li>
+                                    <li >Rest API</li>
+                                    <li >WordPress</li>
+                                    <li >Strapi</li>
+                                    <li >Maven</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 }

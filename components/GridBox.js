@@ -1,7 +1,5 @@
 import React from "react";
 import styles from '../styles/GridBox.module.css';
-import Link from 'next/link'
-
 
 export default function GridBox({ data }) {
 
@@ -9,7 +7,7 @@ export default function GridBox({ data }) {
         <div className={styles.container}>
             <div className={styles.gifContainer}>
                 <video className={styles.video} loop autoPlay muted controls>
-                    <source src={data.video} type="video/mp4"/>
+                    <source src={data.video} type="video/mp4" />
                     <source src={data.video} type="video/ogg" />
                     Your browser does not support the video tag.
                 </video>
@@ -25,12 +23,9 @@ export default function GridBox({ data }) {
                     <p>{data.description}</p>
                 </div>
                 <div className={styles.listTech}>
-                    <ul>
-                        {data.technology.map((tech) => (
-                            <li>{tech}</li>
-                        ))}
-                    </ul>
-
+                    {data.technology.map((tech) => (
+                        <p className={styles.tech}>{tech}</p>
+                    ))}
                 </div>
 
             </div>

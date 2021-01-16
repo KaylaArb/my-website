@@ -1,7 +1,6 @@
 .container {
     width: 100%;
     height: auto;
-    /* min-height: 590px; */
     display: flex;
     border-radius: 5px;
     flex-direction: column;
@@ -34,7 +33,7 @@
     padding: 15px;
     align-items: center;
     height: auto;
-    min-height: 325px;
+    min-height: 350px;
     width: 100%;
     text-align:center;
     background-color: white;
@@ -59,30 +58,20 @@
     text-align: center;
 }
 
-
 .informationContainer .listTech {
     display: flex;
     width: 100%;
     justify-content: center;
     flex-direction: row;
     height: auto;
+    flex-wrap: wrap;
 }
 
-.informationContainer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.listTech .tech {
+    font-size: 1.35em;
+    padding: 0 10px;
+    margin: 5px 0;
   }
-  
-.informationContainer li {
-    float: left;
-    font-size: 1.25em;
-    display: block;
-    padding: 0 10px 0 10px;
-    text-decoration: none;
-  }
-
 
   @media (max-width: 1200px) {
     .gifContainer {

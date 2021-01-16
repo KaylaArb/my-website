@@ -18,16 +18,18 @@ export default function Home({ dataList }) {
       <Head>
         <title>Howdy!</title>
         <link rel="icon" href="/icons8-cat.png" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E75P9H55SB"></script>
-        <script>
-          dangerouslySetInnerHTML={{
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-E75P9H55SB" >
+        </script>
+        <script dangerouslySetInnerHTML={
+          {
             __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-E75P9H55SB');
-        `,
-          }}
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){window.dataLayer.push(arguments)}
+              gtag("js", new Date());
+              gtag("config", "G-E75P9H55SB");`}
+        }>
         </script>
       </Head>
       <Header />
