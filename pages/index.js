@@ -11,19 +11,26 @@ import path from 'path'
 import fs from 'fs'
 import matter from 'gray-matter'
 
-export default function Home({dataList}) {
+export default function Home({ dataList }) {
 
   return (
     <div className={styles.container}>
       <Head>
         <title>Howdy!</title>
         <link rel="icon" href="/icons8-cat.png" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-E75P9H55SB"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)}
+          gtag('js', new Date());
+          gtag('config', 'G-E75P9H55SB');
+        </script>
       </Head>
       <Header />
       <main className={styles.main}>
         <Hero />
         <AboutMe />
-        <ProjectsSection data={dataList}/>
+        <ProjectsSection data={dataList} />
         <Contact />
       </main>
       <Footer />
