@@ -28,7 +28,7 @@ export default function Home({ dataList }) {
               window.dataLayer = window.dataLayer || [];
               function gtag(){window.dataLayer.push(arguments)}
               gtag("js", new Date());
-              gtag("config", "G-E75P9H55SB");`}
+              gtag("config", "G-E75P9H55SB", { "anonymize_ip" : true});`}
         }>
         </script>
       </Head>
