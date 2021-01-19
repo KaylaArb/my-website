@@ -12,7 +12,7 @@ import fs from 'fs'
 import matter from 'gray-matter'
 
 export default function Home({ dataList }) {
-  const imageTag = "/imagetag.JPG"
+  const imageTag = "/imageTag.webp"
 
   return (
     <div className={styles.container}>
