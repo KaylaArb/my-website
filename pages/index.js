@@ -16,15 +16,14 @@ export default function Home({ dataList }) {
 
   return (
     <div className={styles.container}>
-      <Head>
+      <Head prefix="og: http://ogp.me/ns#">
         <title>Howdy!</title>
         <link rel="icon" href="/icons8-cat.png" />
-        <meta name="title"  content="Kayla Arbez | Web Developer" key="title" />
+        <meta name="og:title"  content="Kayla Arbez | Web Developer" key="title" />
         <meta name="og:image" content={imageTag} key="image"/>
-        <meta name="description" content="Programmer portfolio | Showcase of full stack projects" key="description" />
-        <meta name="type" content="website" key="type"/>
-        <meta name="url" content="https://www.kaylaarbez.ca/" key="url"/>
-        {/* <meta name="og:image" content={imageTag} key="image"/> */}
+        <meta name="og:description" content="Programmer portfolio | Showcase of full stack projects" key="description" />
+        <meta name="og:type" content="website" key="type"/>
+        <meta name="og:url" content="https://www.kaylaarbez.ca/" key="url"/>
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-E75P9H55SB" >
