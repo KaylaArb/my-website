@@ -19,11 +19,11 @@ export default function Home({ dataList }) {
       <Head>
         <title>Howdy!</title>
         <link rel="icon" href="/icons8-cat.png" />
-        <meta name="og:title" content="Kayla Arbez | Web Developer" />
-        <meta name="og:description" content="Programmer portfolio | Showcase of full stack projects" />
-        <meta name="og:type" content="website" />
-        <meta name="og:url" content="https://www.kaylaarbez.ca/" />
-        <meta name="og:image" content={imageTag} />
+        <meta property="og:title" name="og:title"  content="Kayla Arbez | Web Developer" key="og:title" />
+        <meta property="og:description" name="og:description" content="Programmer portfolio | Showcase of full stack projects" key="og:description" />
+        <meta property="og:type" name="og:type" content="website" key="og:type"/>
+        <meta property="og:url" name="og:url" content="https://www.kaylaarbez.ca/" key="og:url"/>
+        <meta property="og:image" name="og:image" content={imageTag} key="og:image"/>
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-E75P9H55SB" >
