@@ -12,6 +12,7 @@ import fs from 'fs'
 import matter from 'gray-matter'
 
 export default function Home({ dataList }) {
+  const imageTag = "/imagetag.JPG"
 
   return (
     <div className={styles.container}>
@@ -22,7 +23,7 @@ export default function Home({ dataList }) {
         <meta name="og:description" content="Programmer portfolio | Showcase of full stack projects" />
         <meta name="og:type" content="website" />
         <meta name="og:url" content="https://www.kaylaarbez.ca/" />
-        <meta name="og:image" content="/imagetag.jpg" />
+        <meta name="og:image" content={imageTag} />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-E75P9H55SB" >
