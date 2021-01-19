@@ -27,9 +27,9 @@ export default function Header() {
       <div className={styles.header__navLinks}>
         <a href='https://github.com/KaylaArb' target="_blank"><img src="/iconmonstr-github-1.svg" alt="gitHub" className={styles.icon} /></a>
         <a href='https://www.linkedin.com/in/kayla-arbez-3077a6118/' target="_blank"><img src="/iconmonstr-linkedin-3.svg" alt="linkedIn" className={styles.icon} /></a>
-        <Link href='mailto:kaarbez@gmail.com'>
+        <Link href='mailto:contact@kaylaarbez.ca'>
           <a className={styles.text}>
-            kaarbez@gmail.com
+            contact@kaylaarbez.ca
                 </a>
         </Link>
       </div>
