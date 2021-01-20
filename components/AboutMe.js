@@ -22,19 +22,19 @@ export default function AboutMe() {
                                     <li >Java</li>
                                     <li >JS</li>
                                     <li >CSS</li>
-                                    <li >SQL</li>
                                     <li >HTML</li>
+                                    <li >SQL</li>
                                     <li >Git</li>
                                 </ul>
                             </div>
                             <div>
                                 <ul>
                                     <li >Spring Boot</li>
-                                    <li >Next.JS</li>
-                                    <li >Rest API</li>
-                                    <li >WordPress</li>
-                                    <li >Strapi</li>
                                     <li >Maven</li>
+                                    <li >Rest API</li>
+                                    <li >React / Next.JS</li>
+                                    <li >Strapi</li>
+                                    <li >WordPress</li>
                                 </ul>
                             </div>
                         </div>
