@@ -1,7 +1,6 @@
 import React from "react";
 import Link from 'next/link'
 import styles from '../styles/Hero.module.css';
-import ReactImageFallback from "react-image-fallback";
 import { useState, useEffect } from 'react';
 
 export default function Hero() {
@@ -15,31 +14,10 @@ export default function Hero() {
         <div className={styles.hero}>
             <div className={styles.hero__photoContainer}>
                 <div className={styles.cf} >
-                    <ReactImageFallback
-                        src="/img4.webp"
-                        fallback="/img4.png"
-                        className={`${styles.img} ${loaded ? styles.active : ''}`}
-                    />
-                    <ReactImageFallback
-                        src="/img3.webp"
-                        fallback="/img3.png"
-                        className={`${styles.img} ${loaded ? styles.active : ''}`}
-                    />
-                    <ReactImageFallback
-                        src="/img2.webp"
-                        fallback="/img2.png"
-                        className={`${styles.img} ${loaded ? styles.active : ''}`}
-                    />
-                    <ReactImageFallback
-                        src="/img1.webp"
-                        fallback="/img1.png"
-                        className={`${styles.img} ${loaded ? styles.active : ''}`}
-                    />
-
-                    {/* <img src="/img4.webp" className={`${styles.img} ${loaded ? styles.active : ''}`} />
-                    <img src="/img3.webp" className={`${styles.img} ${loaded ? styles.active : ''}`} />
-                    <img src="/img2.webp" className={`${styles.img} ${loaded ? styles.active : ''}`} />
-                    <img src="/img1.webp" className={`${styles.img} ${loaded ? styles.active : ''}`} /> */}
+                    <img src="/img4.png" className={`${styles.img} ${loaded ? styles.active : ''}`} />
+                    <img src="/img3.png" className={`${styles.img} ${loaded ? styles.active : ''}`} />
+                    <img src="/img2.png" className={`${styles.img} ${loaded ? styles.active : ''}`} />
+                    <img src="/img1.png" className={`${styles.img} ${loaded ? styles.active : ''}`} />
                 </div>
             </div>
             <div className={styles.hero__description}>
