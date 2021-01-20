@@ -17,31 +17,36 @@ export default function Hero() {
                 <div className={styles.cf} >
                     <ReactImageFallback
                         src="/img4.webp"
-                        fallback="/img4.jpg"
+                        fallback="/img4.png"
                         className={`${styles.img} ${loaded ? styles.active : ''}`}
                     />
                     <ReactImageFallback
                         src="/img3.webp"
-                        fallback="/img3.jpg"
+                        fallback="/img3.png"
                         className={`${styles.img} ${loaded ? styles.active : ''}`}
                     />
                     <ReactImageFallback
                         src="/img2.webp"
-                        fallback="/img2.jpg"
+                        fallback="/img2.png"
                         className={`${styles.img} ${loaded ? styles.active : ''}`}
                     />
                     <ReactImageFallback
                         src="/img1.webp"
-                        fallback="/img1.jpg"
+                        fallback="/img1.png"
                         className={`${styles.img} ${loaded ? styles.active : ''}`}
                     />
+
+                    {/* <img src="/img4.webp" className={`${styles.img} ${loaded ? styles.active : ''}`} />
+                    <img src="/img3.webp" className={`${styles.img} ${loaded ? styles.active : ''}`} />
+                    <img src="/img2.webp" className={`${styles.img} ${loaded ? styles.active : ''}`} />
+                    <img src="/img1.webp" className={`${styles.img} ${loaded ? styles.active : ''}`} /> */}
                 </div>
             </div>
             <div className={styles.hero__description}>
                 <p className={styles.intro}>Hi, my name is </p>
                 <h1 className={styles.name}>Kayla Arbez</h1>
                 <p>As an aspiring software developer, I love a challenge and learning all things new and technical! I am mostly self-taught while taking COMP courses as electives in my Business Degree. :)</p>
-                <Link href='mailto:contact@kaylaarbez.ca'><button className={styles.button} target="_blank">Get In Touch</button></Link>
+                <Link href='mailto:contact@kaylaarbez.ca'><button className={styles.button}>Get In Touch</button></Link>
             </div>
             <div className={styles.hero__shape}>
                 <div className={styles.box}></div>
