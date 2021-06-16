@@ -6,9 +6,9 @@
     ".next/cache"
   ],
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "start": "node server.js"
+    "start": "next start"
   },
   "dependencies": {
     "express": "^4.17.1",
