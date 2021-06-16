@@ -8,14 +8,9 @@
     align-items: center;
 }
 
-.about__container {
-    width: 85%;
-}
-
 .about__container .bio {
     display: flex;
     flex-direction: row;
-    width: 100%;
     padding-top: 25px;
 }
 
