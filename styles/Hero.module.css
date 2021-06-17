@@ -1,5 +1,6 @@
 .hero {
     width: 100%;
+    max-width: 1200px;
     height: calc(100vh - 75px);
     background-color: white;
     display: flex;
@@ -19,9 +20,9 @@
 
 .hero__shape .box {
     background-color:#F58F7C;
-    width: 95%;
+    
+    width: 100%;
     height: 400px;
-    right: 55px;
     position: absolute;
     z-index: 2;
     clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 15% 100%, 15% 50%);
@@ -30,6 +31,7 @@
 
 .hero__shape {
     position: absolute;
+    max-width: 1200px;
     width: 80%;
     height: 400px;
     filter: drop-shadow(15px 15px #D6D6D6);
