@@ -14,10 +14,7 @@ export default function Hero() {
         <div className={styles.hero}>
             <div className={styles.hero__photoContainer}>
                 <div className={styles.cf} >
-                    <img src="/img4.jpg" className={`${styles.img} ${loaded ? styles.active : ''}`} />
-                    <img src="/img3.jpg" className={`${styles.img} ${loaded ? styles.active : ''}`} />
-                    <img src="/img2.jpg" className={`${styles.img} ${loaded ? styles.active : ''}`} />
-                    <img src="/img1.jpg" className={`${styles.img} ${loaded ? styles.active : ''}`} />
+                    <img src="/KaylaArbezPhoto.jpg" className={styles.img}/>
                 </div>
             </div>
             <div className={styles.hero__description}>

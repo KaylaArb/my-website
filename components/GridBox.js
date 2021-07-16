@@ -20,11 +20,11 @@ export default function GridBox({ data }) {
                         <a href={data.figma} target="_blank" className={styles.sourceFont}> Figma </a>}
                 </div>
                 <div>
-                    <p>{data.description}</p>
+                    <p className={styles.font}>{data.description}</p>
                 </div>
                 <div className={styles.listTech}>
                     {data.technology.map((tech) => (
-                        <p className={styles.tech}>{tech}</p>
+                        <p className={styles.tech} key={tech}>{tech}</p>
                     ))}
                 </div>
 
