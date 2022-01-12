@@ -70,6 +70,7 @@
 @media (max-width: 1200px) {
 
     .about {
+        height: auto;
         padding: 50px 50px 0px 50px;
     }
 
@@ -88,11 +89,10 @@
 
   }
 
-@media (max-width: 700px) {
+  @media (max-width: 700px) {
     .about {
-        padding: 50px 25px 50px 25px;
+        padding: 50px 25px; 
     }
-    
 }
 
 @media (max-width: 450px) {
@@ -100,6 +100,7 @@
         padding: 0 0 0 10px;
     }
 }
+
 
 
 

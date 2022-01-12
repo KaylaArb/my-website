@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    animation: fadeIn 1s;
+    animation: fadeIn 3s;
 }
 
 .hero__description {
@@ -159,11 +159,6 @@
   }
 
   @media (max-width: 450px) {
-
-    .hero {
-        padding: 0 25px 80px 25px;
-    }
-
 
     .hero__photoContainer .cf {
         height: 250px;
