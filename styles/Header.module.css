@@ -11,8 +11,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     z-index: 10;
-    transition: all 0.3s;
-    transition-timing-function: ease-in-out;
+    overflow:hidden
 }
 
 header.active {
@@ -23,6 +22,7 @@ header.active {
     display: flex;
     height: 100%;
     align-items: center;
+    animation: slideInTitle 2s;
 }
 
 .header__title .title {
@@ -36,6 +36,8 @@ header.active {
     display: flex;
     height: 100%;
     align-items: center;
+    /* animation-delay: 3s; */
+    animation: slideInNav 2s;
 }
 
 .header__navLinks .text {
@@ -90,6 +92,28 @@ header.active {
     }
 
   }
+
+
+  @keyframes slideInNav {
+    from {
+        margin-right: -100%;
+      }
+    
+      to {
+        margin-right: 0%;
+      }
+  }
+
+  @keyframes slideInTitle {
+    from {
+        margin-left: -100%;
+      }
+    
+      to {
+        margin-left: 0%;
+      }
+  }
+  
 
 
   

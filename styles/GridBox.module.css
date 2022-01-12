@@ -42,12 +42,14 @@
 
 .informationContainer .title {
     margin: 5px;
+    color: #667483;
 }
 
 .informationContainer .sourceCode {
     display: flex;
     flex-direction: row;
     height: auto;
+    color: #667483;
 }
 
 .informationContainer .sourceCode .sourceFont {
@@ -71,6 +73,7 @@
     font-size: 1.35em;
     padding: 0 10px;
     margin: 5px 0;
+    color: #667483;
   }
 
 @media (max-width: 1200px) {

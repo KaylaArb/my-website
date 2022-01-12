@@ -25,10 +25,9 @@
     width: 75px;
     height: auto;
     position: relative;
-    top: -35px;
-    right: 20px;
+    top: -20px;
+    right: 0;
     margin:0;
-
 }
 
 .about__header .title {
@@ -47,8 +46,6 @@
     .about {
         margin-top: 25px;
     }
-
-
 }
 
 @media (max-width: 700px) {
@@ -57,7 +54,6 @@
     }
 
     .about__header {
-    
         align-items: center;
     }
     
