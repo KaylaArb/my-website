@@ -14,14 +14,20 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 
 export default function Home({ dataList }) {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
   const imageTag = "/imageTag.webp"
 
-  useEffect(() => {
-    console.log("loeading")
-    window.addEventListener('load', function() {
-      setIsLoading(false)});
-  })
+  // useEffect(() => {
+  //   console.log("loeading")
+  //   window.addEventListener('load', function() {
+  //     setIsLoading(false)});
+  // })
+
+  // useEffect(() => {
+  //       setTimeout(function () {
+  //           setIsLoading(true)
+  //       }, 10000)
+  //   })
 
   return (
     <div className={styles.container}>
@@ -49,17 +55,12 @@ export default function Home({ dataList }) {
       </Head>
       <Header />
       <main className={styles.main}>
-        {isLoading ? <Loader type="TailSpin"
-          color="blue"
-          height={75}
-          width={75}
-          timeout={3000} /> :
-          <div>
-            <Hero />
-            <AboutMe />
-            <ProjectsSection data={dataList} />
-            <Contact />
-          </div>}
+        <div>
+          <Hero />
+          <AboutMe />
+          <ProjectsSection data={dataList} />
+          <Contact />
+        </div>
       </main>
       <Footer />
     </div>
