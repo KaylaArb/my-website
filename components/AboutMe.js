@@ -34,7 +34,7 @@ export default function AboutMe() {
                                     <li key="9">Rest API</li>
                                     <li key="10">React / Next.JS</li>
                                     <li key="11">Strapi</li>
-                                    <li key="12">Godot</li>
+                                    <li key="12">Figma</li>
                                 </ul>
                             </div>
                         </div>
