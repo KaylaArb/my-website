@@ -2,6 +2,7 @@ import React from "react";
 import Link from 'next/link'
 import styles from '../styles/Hero.module.css';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Hero() {
     const [loaded, setloaded] = useState(false);
@@ -14,7 +15,7 @@ export default function Hero() {
         <div className={styles.hero}>
             <div className={styles.hero__photoContainer}>
                 <div className={styles.cf} >
-                    <img src="/KaylaArbezPhoto.jpg" className={styles.img}/>
+                    <Image src="/KaylaArbezPhoto.jpg" className={styles.img} layout='fill'/>
                 </div>
             </div>
             <div className={styles.hero__description}>

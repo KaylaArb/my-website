@@ -1,33 +1,24 @@
 import React, { useState, useEffect } from 'react';
+import useInView from "react-cool-inview";
+import dynamic from 'next/dynamic'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header.js'
 import Hero from "../components/Hero.js"
-import AboutMe from '../components/AboutMe.js'
-import ProjectsSection from '../components/ProjectSection.js'
+const AboutMe = dynamic(() => import('../components/AboutMe'))
+const ProjectsSection = dynamic(() => import('../components/ProjectSection'))
+const Contact = dynamic(() => import('../components/Contact'))
 import Footer from '../components/Footer.js'
-import Contact from '../components/Contact.js'
 import path from 'path'
 import fs from 'fs'
 import matter from 'gray-matter'
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import Loader from "react-loader-spinner";
 
 export default function Home({ dataList }) {
-  // const [isLoading, setIsLoading] = useState(true);
   const imageTag = "/imageTag.webp"
 
-  // useEffect(() => {
-  //   console.log("loeading")
-  //   window.addEventListener('load', function() {
-  //     setIsLoading(false)});
-  // })
-
-  // useEffect(() => {
-  //       setTimeout(function () {
-  //           setIsLoading(true)
-  //       }, 10000)
-  //   })
+  const { observe, inView } = useInView({
+    onEnter: ({ unobserve }) => unobserve(), // only run once
+  });
 
   return (
     <div className={styles.container}>
@@ -55,10 +46,10 @@ export default function Home({ dataList }) {
       </Head>
       <Header />
       <main className={styles.main}>
-        <div>
+        <div ref={observe}>
           <Hero />
           <AboutMe />
-          <ProjectsSection data={dataList} />
+          {inView && <ProjectsSection data={dataList} />}
           <Contact />
         </div>
       </main>

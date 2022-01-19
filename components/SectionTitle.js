@@ -1,5 +1,6 @@
 import { useRef, useEffect, useState } from "react";
 import styles from '../styles/SectionTitle.module.css';
+import Image from 'next/image';
 
 export default function Title({ title }) {
     // const [show, setShow] = useState(false)
@@ -17,7 +18,7 @@ export default function Title({ title }) {
                     <h2 className={styles.title}>{title}</h2>
                     <video className={styles.decorativeIcon} autoPlay muted>
                         <source src="/decAnimation.mp4" type="video/mp4" />
-                        <img src="/decorativeIcon.svg" />
+                        <Image src="/decorativeIcon.svg" layout='fill'/>
                     </video>
                 </div>
 

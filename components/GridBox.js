@@ -6,7 +6,7 @@ export default function GridBox({ data }) {
     return (
         <div className={styles.container}>
             <div className={styles.gifContainer}>
-                <video className={styles.video} loop autoPlay muted controls>
+                <video className={styles.video} autoPlay muted controls playsinline>
                     <source src={data.video} type="video/mp4" />
                     <source src={data.video} type="video/ogg" />
                     Your browser does not support the video tag.
