@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    animation: fadeIn 3s;
+    animation: fadeIn 4s;
 }
 
 .hero__description {
@@ -170,17 +170,15 @@
         font-size: 40px;
         color: white;
     }
-
   }
 
-
   @keyframes fadeIn {
-    from {
+    0% {
         opacity: 0%;
-      }
-    
-      to {
+    }
+
+    100% {
         opacity: 100%;
-      }
+    }
   }
 

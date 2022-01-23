@@ -15,7 +15,7 @@ export default function Hero() {
         <div className={styles.hero}>
             <div className={styles.hero__photoContainer}>
                 <div className={styles.cf} >
-                    <Image src="/KaylaArbezPhoto.jpg" className={styles.img} layout='fill'/>
+                    <Image src="/KaylaArbezPhoto.jpg" priority className={styles.img} layout='fill'/>
                 </div>
             </div>
             <div className={styles.hero__description}>
@@ -27,7 +27,6 @@ export default function Hero() {
             <div className={styles.hero__shape}>
                 <div className={styles.box}></div>
             </div>
-
         </div>
     )
 }
