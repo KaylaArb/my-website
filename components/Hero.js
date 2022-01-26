@@ -22,7 +22,7 @@ export default function Hero() {
                 <p className={styles.intro}>Hi, my name is </p>
                 <h1 className={styles.name}>Kayla Arbez</h1>
                 <p>I am a firm believer in applying a strong work ethic and a healthy curiosity to my academic, professional and personal levels of life. I always encourage new experiences and challenges, as every day is an opportunity to learn and grow as an individual.</p>
-                <Link href='mailto:contact@kaylaarbez.ca'><button className={styles.button}>Get In Touch</button></Link>
+                <Link href='mailto:kaarbez@gmail.com'><button className={styles.button}>Get In Touch</button></Link>
             </div>
             <div className={styles.hero__shape}>
                 <div className={styles.box}></div>
