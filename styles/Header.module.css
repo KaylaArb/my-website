@@ -105,22 +105,32 @@ header.active {
 
 
   @keyframes slideInNav {
-    from {
-        margin-right: -100%;
+    0% {
+        margin-right: -20%;
+        opacity: 0%;
       }
+    35% {
+        opacity: 0%;
+        }  
     
-      to {
+    100% {
         margin-right: 0%;
+        opacity: 100%;
       }
   }
 
   @keyframes slideInTitle {
-    from {
-        margin-left: -100%;
+    0% {
+        margin-left: -20%;
+        opacity: 0%;
       }
+    35% {
+        opacity: 0%;
+    }  
     
-      to {
+    100% {
         margin-left: 0%;
+        opacity: 100%;
       }
   }
   

@@ -7,15 +7,25 @@ import Image from 'next/image';
 export default function Hero() {
     const [loaded, setloaded] = useState(false);
 
-    useEffect(() => {
-        window.addEventListener('load', setloaded(true));
-    })
+    // useEffect(() => {
+    //     window.addEventListener('load', setloaded(true));
+    // })
+
+    // const onLoadCallBack = (e)=>{
+    //     console.log("triggered")
+    //     setloaded(true)
+    //     console.log(loaded)
+    //  }
 
     return (
         <div className={styles.hero}>
             <div className={styles.hero__photoContainer}>
                 <div className={styles.cf} >
-                    <Image src="/KaylaArbezPhoto.jpg" priority className={styles.img} layout='fill'/>
+                    <Image src="/KaylaArbezPhoto.jpg"
+                        priority
+                        className={styles.img}
+                        layout='fill'
+                        onLoad={() => setloaded(true)} />
                 </div>
             </div>
             <div className={styles.hero__description}>

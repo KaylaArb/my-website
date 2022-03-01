@@ -16,7 +16,7 @@ export default function Footer() {
 
       </div>
       <div>
-        <img src="/icons8-cat.png" className={styles.logo} />
+        <img src="/catSprite.gif" className={styles.logo} />
       </div>
 
     </footer>

@@ -24,7 +24,7 @@ export default function Home({ dataList }) {
     <div className={styles.container}>
       <Head prefix="og: http://ogp.me/ns#">
         <title>Howdy!</title>
-        <link rel="icon" href="/icons8-cat.png" />
+        <link rel="icon" href="/catSprite.gif" />
         <meta name="og:title" content="Kayla Arbez | Web Developer" key="title" />
         <meta name="og:image" content={imageTag} key="image" />
         <meta name="og:description" content="Programmer portfolio | Showcase of full stack projects" key="description" />
