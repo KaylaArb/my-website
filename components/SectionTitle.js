@@ -3,13 +3,6 @@ import styles from '../styles/SectionTitle.module.css';
 import Image from 'next/image';
 
 export default function Title({ title }) {
-    // const [show, setShow] = useState(false)
-
-    // useEffect(() => {
-    //     setTimeout(function () {
-    //         setShow(true)
-    //     }, 5000)
-    // })
 
     return (
         <div className={styles.about}>

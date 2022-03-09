@@ -7,7 +7,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    animation: fadeIn 3s;
+    animation: fadeIn 1.5s;
 }
 
 .hero__description {
@@ -176,6 +176,9 @@
     0% {
         opacity: 0%;
     }
+    25% {
+        opacity: 0%;
+        }  
 
     100% {
         opacity: 100%;

@@ -32,7 +32,7 @@ header.active {
     display: flex;
     height: 100%;
     align-items: center;
-    animation: slideInTitle 2s;
+    animation: slideInTitle 1.5s;
     cursor: pointer; 
 }
 
@@ -47,7 +47,7 @@ header.active {
     display: flex;
     height: 100%;
     align-items: center;
-    animation: slideInNav 2s;
+    animation: slideInNav 1.5s;
 }
 
 .header__navLinks .text {
@@ -109,7 +109,7 @@ header.active {
         margin-right: -20%;
         opacity: 0%;
       }
-    35% {
+    25% {
         opacity: 0%;
         }  
     
@@ -124,7 +124,7 @@ header.active {
         margin-left: -20%;
         opacity: 0%;
       }
-    35% {
+    25% {
         opacity: 0%;
     }  
     
