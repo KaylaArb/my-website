@@ -1,9 +1,9 @@
 ---
-id: "3"
-title: "Movie Library Application"
-video: "/movieApplication.mp4"
-description: "A simple application built to practice filtering/sorting, searching, pagination, and unit tests. The API is called at build time and stored in memory. The user is able to search, sort, and filter the library of movies."
-sourceCode: "https://github.com/KaylaArb/movie-project"
-website: "https://movie-application-demo.herokuapp.com/"
-technology: ["Next.JS","Spring Boot","The Movie DB v.3",]
+id: "1"
+title: "NWHacks 2021 Submission"
+video: "/nwhacks.mp4"
+description: "Our solution, Jigsaw, allows users to create and share simplified roadmaps to guide others on their new adventures. Whether you are a new student in a CS program and want a roadmap for events to attend, or someone who is learning coding on your own and need a simplified guide, Jigsaw is your centralized solution. I created the entire frontend with Next.JS and hosted the website within 24 hours."
+sourceCode: "https://github.com/KaylaArb/nwHacks-jigMap"
+website: "https://jigsaw-nwhacks.herokuapp.com"
+technology: ["Next.JS","Spring Boot","Figma",]
 ---

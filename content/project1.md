@@ -1,9 +1,9 @@
 ---
-id: "1"
-title: "NWHacks 2021 Submission"
-video: "/nwhacks.mp4"
-description: "Our solution, Jigsaw, allows users to create and share simplified roadmaps to guide others on their new adventures. Whether you are a new student in a CS program and want a roadmap for events to attend, or someone who is learning coding on your own and need a simplified guide, Jigsaw is your centralized solution. I created the entire frontend with Next.JS and hosted the website within 24 hours."
-sourceCode: "https://github.com/KaylaArb/nwHacks-jigMap"
-website: "https://jigsaw-nwhacks.herokuapp.com"
-technology: ["Next.JS","Spring Boot","Figma",]
+id: "4"
+title: "Half Moon Website"
+video: "/halfmoon.mp4"
+description: "Created a website for a small local business that sells anime merchandise. The website uses Strapi (headless CMS) to manage products and blog posts. I contributed to the design, header, footer, both blog pages, and home page, as well as configuration with Strapi. We hosted the backend on Ubuntu through Digital Ocean and the frontend with Vercel."
+sourceCode: "https://github.com/LRode/halfmoon-frontend"
+website: "https://animanga.me/"
+technology: ["Next.JS","Strapi","Figma", "Cloudinary"]
 ---
