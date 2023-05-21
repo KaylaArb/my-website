@@ -49,7 +49,7 @@ export default function AboutMe() {
                   <li key="9">Rest API</li>
                   <li key="10">React Native</li>
                   <li key="11">Firebase</li>
-                  <li key="12">AWS 1</li>
+                  <li key="12">AWS 12</li>
                 </ul>
               </div>
             </div>
