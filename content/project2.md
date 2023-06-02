@@ -1,9 +1,9 @@
 ---
-id: "2"
-title: "YouTube and Spotify Playlist Sync"
-video: "/playlistSync.mp4"
-description: "A simple application built to practice integrating external APIs. Users are first prompted to authorize their Spotify account, then they can create or delete their Spotify playlists and add songs from a YouTube playlist to one of their Spotify playlists."
-sourceCode: "https://github.com/KaylaArb/playlist-sync"
-website: "https://playlist-sync-demo.herokuapp.com/"
-technology: ["Next.JS","Spring Boot","Spotify API", "YouTube API"]
+id: "5"
+title: "Cmd-f 2021 Submission"
+video: "/me2u.mp4"
+description: In a hackathon dedicated to celebrating women, we won the prize for Best UX/UI Design with our project Me2U. Me2U is a social platform that provides a safe space for women to create and share their story. We were able to accomplish both a web application and a figma mobile prototype to showcase Me2u in 24 hours.
+sourceCode: "https://github.com/KaylaArb/Me2U_cmd-f"
+website: "https://me2u-cmd-f.herokuapp.com/"
+technology: ["Next.JS","Spring Boot","Figma"]
 ---
