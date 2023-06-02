@@ -10,13 +10,11 @@ export default function AboutMe() {
         <div className={styles.bio}>
           <div className={styles.decsription}>
             <p>
-              As a full stack developer, my interest has recently shifted
-              towards project management. I recognize the importance of not just
-              delivering quality software solutions but also effectively
-              managing the entire project life cycle. By combining my technical
-              expertise with project management skills, I aim to drive
-              successful outcomes, optimize resources, and ensure client
-              satisfaction throughout the development process.
+              As a full-stack developer, I'm all about crafting awesome software
+              solutions. I geek out over building efficient and reliable
+              applications that leave clients grinning from ear to ear. From
+              start to finish, my goal is to bring joy and satisfaction to the
+              development process while delivering top-notch results.
             </p>
             <p>
               In my spare time I enjoy table tennis, playing the odd video game
@@ -49,7 +47,7 @@ export default function AboutMe() {
                   <li key="9">Rest API</li>
                   <li key="10">React Native</li>
                   <li key="11">Firebase</li>
-                  <li key="12">AWS 1</li>
+                  <li key="12">Storybook</li>
                 </ul>
               </div>
             </div>

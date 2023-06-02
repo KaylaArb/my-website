@@ -24,9 +24,9 @@ export default function Hero() {
         <p className={styles.intro}>Hi, my name is </p>
         <h1 className={styles.name}>Kayla Arbez</h1>
         <p>
-          I am a full stack developer and project manager with expertise in
-          various programming languages, frameworks, and project management
-          methodologies.
+          I am a full-stack developer with a strong passion for UI/UX design. I
+          enjoy creating intuitive and user-friendly interfaces that enhance the
+          overall user experience.
         </p>
 
         <a href="mailto:kaarbez@gmail.com" target="_blank" rel="noreferrer">
